@@ -21,8 +21,11 @@ $ npm install discord.js
 | config.json | token, prefix |
 | bot.js | Role, RoleID, Channels ID |
 
-# Author
+# Author:
 - StrasznY3
+
+# Version:
+0.1
 
 # Update:
 
