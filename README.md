@@ -1,9 +1,4 @@
-# Discord Bot
-# JavaScript
-
-
-
-
+# Discord Bot in JavaScript
 
 
 
