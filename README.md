@@ -27,6 +27,13 @@ $ npm install discord.js
 # Version:
 0.1
 
+# Comming Features:
+- More Events (WSEventType)
+- New panel functions
+- New commands
+- Ban/Kick system
+- Logs system
+
 # Update:
 
 
