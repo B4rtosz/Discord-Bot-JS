@@ -4,7 +4,7 @@ const config = require ('./config.json');
 
 //Ready
 bot.on("ready", () => {
-	var Data = new Date();
+  var Data = new Date();
   bot.user.setStatus('online');
   bot.user.setGame('');
 	console.log('___________________________________________________________________');
