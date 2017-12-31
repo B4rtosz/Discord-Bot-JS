@@ -42,7 +42,7 @@ bot.on('message', (message) => {
         let role = message.guild.roles.find("name", "");
         let roleID = "";
         if(message.member.roles.has(role.id)) {
-            message.channel.sendMessage(`**Admin Panel!** \n [**1.**] Use ${config.prefix}saveemoji to save server emoji!`);
+            message.channel.sendMessage(`**Admin Panel!** \n[**1.**] Use ${config.prefix}saveemoji to save server emoji!`);
         } else
             message.reply("You not have permission to use this command!");
             message.react("❌")
