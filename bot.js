@@ -2,6 +2,7 @@ const Discord = require ("discord.js")
 const bot = new Discord.Client();
 const config = require ('./config.json');
 
+//Ready
 bot.on("ready", () => {
 	var Data = new Date();
   bot.user.setStatus('online');
@@ -21,6 +22,7 @@ bot.on("ready", () => {
 	console.log('___________________________________________________________________');
 });
 
+//Message
 bot.on('message', (message) => {
 	if (message.content === config.prefix + "ping") {
  		message.reply(`PONG! \nPing: **${bot.ping}** ms`);
@@ -58,6 +60,7 @@ bot.on('message', (message) => {
 			}
 });
 
+//Events
 bot.on('guildMemberAdd', (guild, member) => {
 		var Data = new Date();
 		bot.channels.get("").message.send(member + " joined!");
@@ -68,3 +71,6 @@ bot.on('guildMemberRemove', (guild, member) => {
 		bot.channels.get("").message.send(member + " quit!");
 		console.log('${member} quit!');
 });
+
+//Login
+bot.login(config.token);
