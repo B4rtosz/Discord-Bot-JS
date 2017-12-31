@@ -7,6 +7,7 @@ bot.on("ready", () => {
   var Data = new Date();
   bot.user.setStatus('online');
   bot.user.setGame('');
+	console.clear()
 	console.log('___________________________________________________________________');
 	console.log('Token: ' + config.token);
 	console.log('___________________________________________________________________');
