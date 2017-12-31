@@ -64,12 +64,12 @@ bot.on('message', (message) => {
 bot.on('guildMemberAdd', (guild, member) => {
 		var Data = new Date();
 		bot.channels.get("").message.send(member + " joined!");
-		console.log('${member} joined!');
+		console.log(`${member} joined!`);
 });
 bot.on('guildMemberRemove', (guild, member) => {
 		var Data = new Date();
 		bot.channels.get("").message.send(member + " quit!");
-		console.log('${member} quit!');
+		console.log(`${member} quit!`);
 });
 
 //Login
