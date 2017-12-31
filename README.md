@@ -1,1 +1,2 @@
-# newproject
+# Discord Bot
+# JavaScript
