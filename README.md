@@ -1,2 +1,9 @@
 # Discord Bot
 # JavaScript
+
+
+
+
+
+
+
