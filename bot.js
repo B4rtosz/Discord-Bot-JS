@@ -27,7 +27,7 @@ bot.on("ready", () => {
 bot.on('message', (message) => {
 	if (message.content === config.prefix + "ping") {
  	        message.reply(`PONG! \nPing: **${bot.ping}** ms`);
-    message.react("✅");
+   		message.react("✅");
 	}
 	if (message.content === config.prefix + "pong") {
 		message.reply(`PING! \nPing: **${bot.ping}** ms`);
